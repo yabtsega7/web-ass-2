@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "genre": "Sci-Fi",
+    "review": "A masterpiece of layered storytelling. Nolan takes dream logic and turns it into a breathtaking heist thriller that rewards repeated viewing.",
+    "rating": 9,
+    "createdAt": "2026-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "genre": "Drama",
+    "review": "One of the greatest films ever made. A deeply moving story about hope, friendship, and perseverance set inside the walls of a prison.",
+    "rating": 10,
+    "createdAt": "2026-01-11T10:15:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "year": 2008,
+    "genre": "Action",
+    "review": "Heath Ledger's Joker is one of cinema's greatest villains. A gripping, morally complex superhero film that transcends the genre entirely.",
+    "rating": 10,
+    "createdAt": "2026-01-12T11:30:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "genre": "Thriller",
+    "review": "A genre-defying social thriller that shifts tone brilliantly. The first non-English film to win Best Picture at the Oscars, and it fully deserved it.",
+    "rating": 9,
+    "createdAt": "2026-01-13T14:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "review": "Visually stunning and emotionally ambitious. The docking scene and the fifth dimension sequence are among the most memorable in modern cinema.",
+    "rating": 8,
+    "createdAt": "2026-01-14T08:45:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "year": 1972,
+    "genre": "Crime",
+    "review": "The definitive crime epic. Every performance, every shot, every line of dialogue is perfect. A film that set the standard for generations.",
+    "rating": 10,
+    "createdAt": "2026-01-15T13:20:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "year": 1994,
+    "genre": "Crime",
+    "review": "Bold, nonlinear, and endlessly quotable. Tarantino redefined independent cinema with this electric anthology of interconnected stories.",
+    "rating": 9,
+    "createdAt": "2026-01-16T16:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "title": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "year": 2001,
+    "genre": "Animation",
+    "review": "A magical and imaginative journey unlike anything else in animation. Studio Ghibli at its absolute peak — a timeless coming-of-age story.",
+    "rating": 10,
+    "createdAt": "2026-01-17T10:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "title": "Get Out",
+    "director": "Jordan Peele",
+    "year": 2017,
+    "genre": "Horror",
+    "review": "A razor-sharp social horror film that works on every level. Peele announced himself as a major directorial voice with this stunning debut.",
+    "rating": 8,
+    "createdAt": "2026-01-18T19:30:00.000Z"
+  },
+  {
+    "id": "10",
+    "title": "The Matrix",
+    "director": "The Wachowskis",
+    "year": 1999,
+    "genre": "Action",
+    "review": "A revolutionary sci-fi action film that changed cinema forever. Bullet time, red pills, and a philosophy degree hidden inside a blockbuster.",
+    "rating": 9,
+    "createdAt": "2026-01-19T12:00:00.000Z"
+  }
+]
