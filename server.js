@@ -5,13 +5,16 @@ const path = require("path");
 const PORT = 3000;
 const DATA_FILE = path.join(__dirname, "movies.json");
 
-function readMovies() {
-  const data = fs.readFileSync(DATA_FILE, "utf-8");
-  return JSON.parse(data);
+async function readMovies() {
+  try {
+    const data = await fs.readFile(DATA_FILE, "utf-8");
+    return JSON.parse(data);
+  } catch (err) {
+    return [];
+  }
 }
-
-function writeMovies(movies) {
-  fs.writeFileSync(DATA_FILE, JSON.stringify(movies, null, 2));
+async function writeMovies(movies) {
+  await fs.writeFile(DATA_FILE, JSON.stringify(movies, null, 2));
 }
 
 function sendJSON(res, statusCode, data) {
@@ -33,9 +36,13 @@ function parseBody(req) {
   });
 }
 
-function getAllMovies(req, res) {
-  const movies = readMovies();
-  sendJSON(res, 200, movies);
+async function getAllMovies(req, res) {
+  try {
+    const movies = await readMovies();
+    sendJSON(res, 200, movies);
+  } catch (err) {
+    sendJSON(res, 500, { error: "Internal Server Error" });
+  }
 }
 
 function getMovieById(req, res, id) {
